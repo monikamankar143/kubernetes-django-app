@@ -6,6 +6,8 @@ metadata:
 
   name: todo-pod
 
+  namespace: django
+
 spec:
 
   containers:

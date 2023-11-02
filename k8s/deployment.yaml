@@ -5,6 +5,8 @@ kind: Deployment
 metadata:
 
   name: todo-deployment
+  
+  namespace: django
 
   labels:
 
@@ -24,6 +26,8 @@ spec:
 
     metadata:
 
+      namespace: django
+      
       labels:
 
         app: todo-app
